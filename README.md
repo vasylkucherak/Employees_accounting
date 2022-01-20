@@ -1,5 +1,7 @@
 # Employees Accounting App
 
+This is a handy list that is subject to many changes. You can enter the data of employees, their salaries, regulate the issuance of the award. The application implements a convenient search for employees by name, salary and those who will receive the award.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
