@@ -40,10 +40,14 @@ class App extends Component {
             id: this.maxId++
         }
         this.setState(({data}) => {
-            const newArr = [...data, newItem];
-            return {
-                data: newArr
-            }
+            if (name && salary) {
+                const newArr = [...data, newItem];
+                return {
+                    data: newArr
+                }
+            } else {
+                return data
+            }    
         });
     }
 
